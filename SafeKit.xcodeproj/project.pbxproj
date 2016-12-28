@@ -15,6 +15,14 @@
 		1798602B1E139FA3009F94C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179860291E139FA3009F94C8 /* LaunchScreen.storyboard */; };
 		179860361E139FA3009F94C8 /* SafeKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860351E139FA3009F94C8 /* SafeKitTests.m */; };
 		179860411E139FA3009F94C8 /* SafeKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860401E139FA3009F94C8 /* SafeKitUITests.m */; };
+		179860511E139FF8009F94C8 /* NSString+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860501E139FF8009F94C8 /* NSString+SPSafeKit.m */; };
+		179860541E13A033009F94C8 /* NSArray+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860531E13A033009F94C8 /* NSArray+SPSafeKit.m */; };
+		179860571E13A04C009F94C8 /* NSDictionary+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860561E13A04C009F94C8 /* NSDictionary+SPSafeKit.m */; };
+		1798605A1E13A084009F94C8 /* NSMutableString+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860591E13A084009F94C8 /* NSMutableString+SPSafeKit.m */; };
+		1798605D1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798605C1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m */; };
+		179860601E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798605F1E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m */; };
+		179860631E13A0D1009F94C8 /* NSNumber+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860621E13A0D1009F94C8 /* NSNumber+SPSafeKit.m */; };
+		179860661E13AD70009F94C8 /* NSObject+SPSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860651E13AD70009F94C8 /* NSObject+SPSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		1798603C1E139FA3009F94C8 /* SafeKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		179860401E139FA3009F94C8 /* SafeKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeKitUITests.m; sourceTree = "<group>"; };
 		179860421E139FA3009F94C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1798604F1E139FF8009F94C8 /* NSString+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SPSafeKit.h"; sourceTree = "<group>"; };
+		179860501E139FF8009F94C8 /* NSString+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SPSafeKit.m"; sourceTree = "<group>"; };
+		179860521E13A033009F94C8 /* NSArray+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SPSafeKit.h"; sourceTree = "<group>"; };
+		179860531E13A033009F94C8 /* NSArray+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SPSafeKit.m"; sourceTree = "<group>"; };
+		179860551E13A04C009F94C8 /* NSDictionary+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SPSafeKit.h"; sourceTree = "<group>"; };
+		179860561E13A04C009F94C8 /* NSDictionary+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SPSafeKit.m"; sourceTree = "<group>"; };
+		179860581E13A084009F94C8 /* NSMutableString+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+SPSafeKit.h"; sourceTree = "<group>"; };
+		179860591E13A084009F94C8 /* NSMutableString+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+SPSafeKit.m"; sourceTree = "<group>"; };
+		1798605B1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SPSafeKit.h"; sourceTree = "<group>"; };
+		1798605C1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SPSafeKit.m"; sourceTree = "<group>"; };
+		1798605E1E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SPSafeKit.h"; sourceTree = "<group>"; };
+		1798605F1E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SPSafeKit.m"; sourceTree = "<group>"; };
+		179860611E13A0D1009F94C8 /* NSNumber+SPSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+SPSafeKit.h"; sourceTree = "<group>"; };
+		179860621E13A0D1009F94C8 /* NSNumber+SPSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+SPSafeKit.m"; sourceTree = "<group>"; };
+		179860641E13AD70009F94C8 /* NSObject+SPSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SPSwizzling.h"; sourceTree = "<group>"; };
+		179860651E13AD70009F94C8 /* NSObject+SPSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SPSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,7 @@
 		1798601A1E139FA2009F94C8 /* SafeKit */ = {
 			isa = PBXGroup;
 			children = (
+				1798604E1E139FBA009F94C8 /* Cateogory */,
 				1798601E1E139FA2009F94C8 /* AppDelegate.h */,
 				1798601F1E139FA2009F94C8 /* AppDelegate.m */,
 				179860211E139FA2009F94C8 /* ViewController.h */,
@@ -138,6 +163,29 @@
 				179860421E139FA3009F94C8 /* Info.plist */,
 			);
 			path = SafeKitUITests;
+			sourceTree = "<group>";
+		};
+		1798604E1E139FBA009F94C8 /* Cateogory */ = {
+			isa = PBXGroup;
+			children = (
+				1798604F1E139FF8009F94C8 /* NSString+SPSafeKit.h */,
+				179860501E139FF8009F94C8 /* NSString+SPSafeKit.m */,
+				179860521E13A033009F94C8 /* NSArray+SPSafeKit.h */,
+				179860531E13A033009F94C8 /* NSArray+SPSafeKit.m */,
+				179860551E13A04C009F94C8 /* NSDictionary+SPSafeKit.h */,
+				179860561E13A04C009F94C8 /* NSDictionary+SPSafeKit.m */,
+				179860581E13A084009F94C8 /* NSMutableString+SPSafeKit.h */,
+				179860591E13A084009F94C8 /* NSMutableString+SPSafeKit.m */,
+				1798605B1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.h */,
+				1798605C1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m */,
+				1798605E1E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.h */,
+				1798605F1E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m */,
+				179860611E13A0D1009F94C8 /* NSNumber+SPSafeKit.h */,
+				179860621E13A0D1009F94C8 /* NSNumber+SPSafeKit.m */,
+				179860641E13AD70009F94C8 /* NSObject+SPSwizzling.h */,
+				179860651E13AD70009F94C8 /* NSObject+SPSwizzling.m */,
+			);
+			path = Cateogory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179860631E13A0D1009F94C8 /* NSNumber+SPSafeKit.m in Sources */,
+				179860511E139FF8009F94C8 /* NSString+SPSafeKit.m in Sources */,
 				179860231E139FA3009F94C8 /* ViewController.m in Sources */,
+				1798605A1E13A084009F94C8 /* NSMutableString+SPSafeKit.m in Sources */,
 				179860201E139FA2009F94C8 /* AppDelegate.m in Sources */,
+				1798605D1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m in Sources */,
+				179860661E13AD70009F94C8 /* NSObject+SPSwizzling.m in Sources */,
+				179860541E13A033009F94C8 /* NSArray+SPSafeKit.m in Sources */,
+				179860601E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m in Sources */,
 				1798601D1E139FA2009F94C8 /* main.m in Sources */,
+				179860571E13A04C009F94C8 /* NSDictionary+SPSafeKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
