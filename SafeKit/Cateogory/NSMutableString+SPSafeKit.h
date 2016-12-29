@@ -10,4 +10,6 @@
 
 @interface NSMutableString (SPSafeKit)
 
++ (void)openSafeKit;
+
 @end

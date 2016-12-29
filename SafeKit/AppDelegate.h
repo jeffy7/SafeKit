@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#define GlobalApp (AppDelagate *)[UIApplication sharedApplication].delegate
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UINavigationController *rootController;
 
 
 @end

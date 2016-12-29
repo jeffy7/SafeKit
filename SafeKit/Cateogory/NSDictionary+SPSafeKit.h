@@ -10,4 +10,6 @@
 
 @interface NSDictionary (SPSafeKit)
 
++ (void)openSafeKit;
+
 @end

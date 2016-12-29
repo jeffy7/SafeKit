@@ -10,4 +10,6 @@
 
 @interface NSMutableArray (SPSafeKit)
 
++ (void)openSafeKit;
+
 @end

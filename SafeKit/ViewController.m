@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *atr = nil;
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    [array addObject:atr];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 

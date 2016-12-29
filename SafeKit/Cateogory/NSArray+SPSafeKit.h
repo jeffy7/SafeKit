@@ -10,4 +10,6 @@
 
 @interface NSArray (SPSafeKit)
 
++ (void)openSafeKit;
+
 @end

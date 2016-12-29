@@ -10,6 +10,9 @@
 
 @interface NSObject (SPSwizzling)
 
++ (void)spSwizzlingMethod:(SEL)systemSel tarSel:(SEL)tarSel;
++ (void)spSwizzlingMethod:(SEL)systemSel tarClassString:(NSString *)tarClassString tarSel:(SEL)tarSel;
++ (void)spSwizzlingMethod:(SEL)systemSel tarClass:(Class)tarClass tarSel:(SEL)tarSel;
 + (void)spSwizzlingMethod:(Class)systemClass systemSel:(SEL)systemSel tarClass:(Class)tarClass tarSel:(SEL)tarSel;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface NSNumber (SPSafeKit)
 
++ (void)openSafeKit;
+
 @end

@@ -8,11 +8,19 @@
 
 #ifndef SPSafeKitHeader_h
 #define SPSafeKitHeader_h
-
-#import "NSObject+SPSwizzling.h"
-#import <objc/runtime.h>
 #import <Foundation/NSObject.h>
 #import <UIKit/UIKit.h>
+
+#import <objc/runtime.h>
+
+#import "NSObject+SPSwizzling.h"
+#import "NSString+SPSafeKit.h"
+#import "NSArray+SPSafeKit.h"
+#import "NSDictionary+SPSafeKit.h"
+#import "NSMutableString+SPSafeKit.h"
+#import "NSMutableArray+SPSafeKit.h"
+#import "NSMutableDictionary+SPSafeKit.h"
+#import "NSNumber+SPSafeKit.h"
 
 #import "SPSafeKitManger.h"
 

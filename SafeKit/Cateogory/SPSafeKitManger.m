@@ -33,11 +33,33 @@ static SPSafeKitManger *safekitManger = nil;
 }
 
 - (void)dosomething {
+    //日志上传
+    //弹框提示
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"Notice" message:@"Reason" preferredStyle:UIAlertControllerStyleAlert];
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"cancle" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"~~~~~~~~~~~");
+    }]];
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"delete" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"~~~~~~~~~~~");
+    }]];
+    
+    
+    UINavigationController *rootNav = [(AppDelegate *)[UIApplication sharedApplication].delegate rootController];
+    [rootNav presentViewController:alertVC animated:YES completion:^{
+        
+    }];
+
     
 }
 
 - (void)openSafeKit {
-    
+    [NSString openSafeKit];
+    [NSArray openSafeKit];
+    [NSDictionary openSafeKit];
+    [NSMutableString openSafeKit];
+    [NSMutableArray openSafeKit];
+    [NSMutableDictionary openSafeKit];
+    [NSNumber openSafeKit];
 }
 
 @end
