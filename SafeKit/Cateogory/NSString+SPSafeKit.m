@@ -46,15 +46,6 @@
     return [self safe_substringWithRange:range];
 }
 
-- (CGRect)safe_boundingRectWithSize:(CGSize)size options:(NSStringDrawingOptions)options attributes:(nullable NSDictionary<NSString *, id> *)attributes context:(nullable NSStringDrawingContext *)context {
-    if ([self length] == 0) {
-        
-        return CGRectZero;
-    }
-    
-    return [self safe_boundingRectWithSize:size options:options attributes:attributes context:context];
-}
-
 + (void)openSafeKit {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -63,7 +54,6 @@
         [self spSwizzlingMethod:@selector(safe_substringFromIndex:) tarClassString:@"__NSCFString" tarSel:@selector(substringFromIndex:)];
         [self spSwizzlingMethod:@selector(safe_substringToIndex:) tarClassString:@"__NSCFString" tarSel:@selector(substringToIndex:)];
         [self spSwizzlingMethod:@selector(safe_substringWithRange:) tarClassString:@"__NSCFString" tarSel:@selector(substringWithRange:)];
-        [self spSwizzlingMethod:@selector(safe_boundingRectWithSize:options:attributes:context:) tarClassString:@"__NSCFString" tarSel:@selector(boundingRectWithSize:options:attributes:context:)];
     });
 }
 
