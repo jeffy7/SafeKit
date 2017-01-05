@@ -24,6 +24,7 @@
 		179860631E13A0D1009F94C8 /* NSNumber+SPSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860621E13A0D1009F94C8 /* NSNumber+SPSafeKit.m */; };
 		179860661E13AD70009F94C8 /* NSObject+SPSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 179860651E13AD70009F94C8 /* NSObject+SPSwizzling.m */; };
 		17CF50A01E142ECB000CD177 /* SPSafeKitManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CF509F1E142ECB000CD177 /* SPSafeKitManger.m */; };
+		17CF50A31E1D2EE6000CD177 /* UIButton+RepeatClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CF50A21E1D2EE6000CD177 /* UIButton+RepeatClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		17CF509D1E142ECB000CD177 /* SPSafeKitHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSafeKitHeader.h; sourceTree = "<group>"; };
 		17CF509E1E142ECB000CD177 /* SPSafeKitManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSafeKitManger.h; sourceTree = "<group>"; };
 		17CF509F1E142ECB000CD177 /* SPSafeKitManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSafeKitManger.m; sourceTree = "<group>"; };
+		17CF50A11E1D2EE6000CD177 /* UIButton+RepeatClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RepeatClick.h"; sourceTree = "<group>"; };
+		17CF50A21E1D2EE6000CD177 /* UIButton+RepeatClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RepeatClick.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				179860291E139FA3009F94C8 /* LaunchScreen.storyboard */,
 				1798602C1E139FA3009F94C8 /* Info.plist */,
 				1798601B1E139FA2009F94C8 /* Supporting Files */,
+				17CF50A11E1D2EE6000CD177 /* UIButton+RepeatClick.h */,
+				17CF50A21E1D2EE6000CD177 /* UIButton+RepeatClick.m */,
 			);
 			path = SafeKit;
 			sourceTree = "<group>";
@@ -340,6 +345,7 @@
 				179860201E139FA2009F94C8 /* AppDelegate.m in Sources */,
 				1798605D1E13A09E009F94C8 /* NSMutableArray+SPSafeKit.m in Sources */,
 				179860661E13AD70009F94C8 /* NSObject+SPSwizzling.m in Sources */,
+				17CF50A31E1D2EE6000CD177 /* UIButton+RepeatClick.m in Sources */,
 				179860541E13A033009F94C8 /* NSArray+SPSafeKit.m in Sources */,
 				17CF50A01E142ECB000CD177 /* SPSafeKitManger.m in Sources */,
 				179860601E13A0B4009F94C8 /* NSMutableDictionary+SPSafeKit.m in Sources */,
